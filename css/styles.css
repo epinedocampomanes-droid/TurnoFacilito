@@ -910,3 +910,11 @@ html[data-simple="true"] .featured-grid .place-body {padding-top:19px;}
 @media(max-width:600px){.consulta-v24 .consult-tabs{grid-template-columns:1fr}.consult-method{padding:12px;grid-template-columns:40px minmax(0,1fr) 18px}.consult-method.selected{padding:11px}.method-icon{width:40px;height:40px}.consult-metrics{grid-template-columns:1fr 1fr}.consult-metrics>div:last-child{grid-column:1/-1}.consult-metrics strong{font-size:1.2rem}}
 html[data-contrast="true"] :is(.consult-method,.consult-method.selected,.consult-metrics>div,.tracking-metrics>.queue-position,.brief-wait,.afluencia-label,.method-icon,.consult-qr>.qr-visual){background:#000!important;color:#fff!important;border:1px solid #fff!important}html[data-contrast="true"] :is(.consult-method small,.req-kind,.consult-help summary,.method-check,.method-icon svg,.consult-input>svg,.afluencia-info small){color:#fff!important}
 .qr-agencia-svg{width:112px;height:112px;background:white;border-radius:5px;display:block;flex:none}.qr-grid .qr-agencia-svg{width:100%;height:auto;max-width:170px;aspect-ratio:1}.qr-direct-link{font-size:.76rem;color:#2854a7;text-decoration:underline}.consulta-v24 .consult-input+.consult-input{margin-top:7px}
+
+/* V2.5: regreso accesible, visible en todas las vistas con historial. */
+.navigation-back:has(.nav-back-btn[hidden]){display:none;}
+.navigation-back{max-width:1050px;margin:0 auto 16px;}
+.nav-back-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 14px;font-size:.875rem;font-weight:600;color:var(--blue);background:#fff;box-shadow:none;}
+.nav-back-btn[hidden]{display:none!important;}
+.nav-back-btn:focus-visible{outline:3px solid #f59e0b;outline-offset:3px;}
+@media(max-width:760px){.navigation-back{margin-bottom:12px;}.nav-back-btn{max-width:100%;white-space:normal;text-align:left;}}
