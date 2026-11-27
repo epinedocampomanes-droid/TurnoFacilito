@@ -872,7 +872,7 @@ html[data-simple="true"] .featured-grid .place-body {padding-top:19px;}
 .selection-layout,.service-selection,.schedule,#plan-panel,.date-rail{min-width:0;max-width:100%;box-sizing:border-box}.selection-layout>.card{min-width:0}.date-rail{width:100%;contain:inline-size}.date-option{min-width:0}.service-selection{width:100%}.selection-layout{grid-template-columns:minmax(0,1.5fr) minmax(0,.8fr)}
 @media(max-width:1000px){.selection-layout{grid-template-columns:minmax(0,1fr)}}
 
-/* V2.1: calendario aislado del panel antiguo. */
+/* calendario aislado del panel antiguo. */
 .service-selection .schedule{display:block;width:100%;min-width:0;max-width:100%;padding:16px}
 .schedule #plan-panel{display:block;width:100%;min-width:0;margin-top:16px;padding-top:12px;border-top:1px solid #dce4ef}.schedule #plan-panel[hidden]{display:none!important}
 .schedule .date-title{margin:0 0 10px;flex-wrap:wrap;gap:5px}.schedule .date-rail{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));align-items:start;gap:7px;width:100%;padding:3px;margin:0 0 16px;overflow:visible;contain:none}.schedule .date-option{min-width:0;width:100%;min-height:68px;height:auto;padding:7px 3px;gap:3px;line-height:1.25}.schedule .date-option small{font-size:.68rem;color:inherit;white-space:nowrap}.schedule .date-option strong{font-size:1.12rem}
@@ -889,7 +889,7 @@ html[data-simple="true"] .featured-grid .place-body {padding-top:19px;}
 @media(max-width:760px){.schedule .date-rail{grid-template-columns:repeat(4,minmax(0,1fr))}.schedule .slot-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:390px){.schedule .slot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
-/* V2.3: avance manual integrado en la tarjeta de seguimiento */
+/* avance manual integrado en la tarjeta de seguimiento */
 .preview-process-row{display:flex;justify-content:flex-end;margin-top:16px;padding-top:12px;border-top:1px solid var(--border)}
 .preview-process-btn{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;min-height:44px;color:#526681}
 .preview-process-btn:hover{text-decoration:underline;color:var(--blue)}
@@ -900,7 +900,7 @@ html[data-simple="true"] .featured-grid .place-body {padding-top:19px;}
 [data-contrast="true"] .preview-process-btn,[data-contrast="true"] .manual-process-note{color:#fff}
 @media(max-width:480px){.preview-process-row{justify-content:center}.manual-process-note{text-align:center;justify-content:center}.manual-process-note span{justify-content:center}}
 
-/* V2.4: consulta, afluencia y seguimiento. */
+/* consulta, afluencia y seguimiento. */
 .consulta-v24{max-width:1040px;margin-inline:auto}.consulta-v24 .consult-panel,.consulta-v24 .consult-result{padding:clamp(18px,3vw,32px)}
 .consulta-v24 .consult-tabs{gap:14px;border-bottom:1px solid var(--border);padding-bottom:22px;margin-bottom:24px}
 .consult-method{display:grid;grid-template-columns:48px minmax(0,1fr) 22px;gap:12px;align-items:center;text-align:left;padding:16px;border:1px solid var(--border);border-radius:14px;background:var(--surface,#fff);color:inherit;cursor:pointer;min-width:0}
@@ -911,7 +911,7 @@ html[data-simple="true"] .featured-grid .place-body {padding-top:19px;}
 html[data-contrast="true"] :is(.consult-method,.consult-method.selected,.consult-metrics>div,.tracking-metrics>.queue-position,.brief-wait,.afluencia-label,.method-icon,.consult-qr>.qr-visual){background:#000!important;color:#fff!important;border:1px solid #fff!important}html[data-contrast="true"] :is(.consult-method small,.req-kind,.consult-help summary,.method-check,.method-icon svg,.consult-input>svg,.afluencia-info small){color:#fff!important}
 .qr-agencia-svg{width:112px;height:112px;background:white;border-radius:5px;display:block;flex:none}.qr-grid .qr-agencia-svg{width:100%;height:auto;max-width:170px;aspect-ratio:1}.qr-direct-link{font-size:.76rem;color:#2854a7;text-decoration:underline}.consulta-v24 .consult-input+.consult-input{margin-top:7px}
 
-/* V2.5: regreso accesible, visible en todas las vistas con historial. */
+/* regreso accesible, visible en todas las vistas con historial. */
 .navigation-back:has(.nav-back-btn[hidden]){display:none;}
 .navigation-back{max-width:1050px;margin:0 auto 16px;}
 .nav-back-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 14px;font-size:.875rem;font-weight:600;color:var(--blue);background:#fff;box-shadow:none;}
